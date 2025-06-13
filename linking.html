@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="hero">
+        <h1>Hi, I'm Vidyasree</h1>
+        <p>Frontend Developer</p>
+        <script src="vidya.js"></script>
+        <img src="https://github.com/JaruguVidyasree/Vidyasree/blob/main/WhatsApp%20Image%202025-06-06%20at%2019.26.14_98297146.jpg?raw=true" alt="My Photo" width="200" />
+    </section>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>A passionate frontend developer with a love for clean UI and responsive design.</p>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="https://github.com/JaruguVidyasree/Vidyasree/blob/main/WhatsApp Image 2025-06-13 at 13.53.42_c2accf42.jpg?raw=true" alt="Project 1" />
+            <h3>Speed Typing Test</h3>
+            <p>Developed a responsive web application that allows users to test their typing speed and accuracy.
+                • Implemented real-time feedback for words per minute (WPM), errors, and elapsed time using Javascript.
+                • Displayed dynamically generated paragraphs for typing practice.
+                • Included features like restart button, timer, error counter, and performance summary.
+                • Designed user-friendly interface interface with clear instructions and color-coded results.
+                Technologies used: HTML, CSS, Bootstrap, Javascript </p>
+            <a href="https://typingtest1824.ccbp.tech" target="_blank">View Code</a>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+            <p id="formMsg"></p>
+        </form>
+    </section>
+
+    <section class="model-viewer">
+        <h2>3D Showcase</h2>
+        <canvas id="3dCanvas"></canvas>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.153.0/build/three.min.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
